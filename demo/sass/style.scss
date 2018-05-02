@@ -109,8 +109,20 @@ footer {
 
 .instration {
   width: 100%;
-  height: calc(100vh - 150px - 30px - 100px - 30px);
-  & h1 {
+  height: calc(100vh - 150px - 30px - 100px - 30px);  
+  & h2 {
     font-size: 26px;
+    margin: 15px 0 0 0;
+  }
+  & h3 {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+  }
+  & .code {
+    margin: 0;
+    width: 1000px;
+  }
+  & code {
+    font-size: 15px;
   }
 }
