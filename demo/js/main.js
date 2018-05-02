@@ -1,9 +1,25 @@
-document.querySelector(".instration").addEventListener("click", function() {
-  document.querySelector("main").innerHTML = `<div class="instration"><h1>underconstruction...</h1></div>`
+document.querySelector(".instration").addEventListener("click", function () {
+  document.querySelector("main").innerHTML = `<div class="instration">
+  <section>
+  <h2>CDN</h2>
+  <h3>CSS</h3>
+  <div class="code">
+    <code>
+      &lt;link&nbsprel="stylesheet"&nbsphref="https://cdn.rawgit.com/Ut0n69/monochrome/76bad776/css/monochrome.min.css"&gt;
+    </code>
+  </div>
+  <h3>JS (If you use Humberger Menu)</h3>
+  <div class="code">
+  <code>
+  &lt;script src="https://cdn.rawgit.com/Ut0n69/monochrome/76bad776/js/monochrome.js"&gt;&lt;/script&gt;
+  </code>
+</div>
+  </section>
+    </div>`
 }, false)
 
 
-document.querySelector(".usage").addEventListener("click", function() {
+document.querySelector(".usage").addEventListener("click", function () {
 
   document.querySelector("main").innerHTML = `        <section>
   <h2>Button</h2>
@@ -254,33 +270,33 @@ document.querySelector(".usage").addEventListener("click", function() {
   <hr color="#000">
   <div class="contents">
     <div class="card">
-      <img src="http://placehold.jp/300x300.png">
+      <img src="http://placehold.jp/000000/ffffff/300x300.png">
       <p>title</p>
     </div>
   </div>
   <div class="code code-button">
     <code>
       &lt;div class="card"&gt;
-      <br>&nbsp;&nbsp;&lt;img src="http://placehold.jp/300x300.png"&gt;
+      <br>&nbsp;&nbsp;&lt;img src="YOUR_IMAGES_URL"&gt;
       <br>&nbsp;&nbsp;&lt;p&gt;title&lt;/p&gt;
       <br>&lt;/div&gt;      
     </code>
   </div>
 </section>`
 
-  document.querySelector(".hbg-menu").addEventListener("click", function() {
+  document.querySelector(".hbg-menu").addEventListener("click", function () {
     document.querySelector(".hbg-menu .hbg").classList.toggle("active")
   }, false)
 
-  document.querySelector(".hbg-menu-spin").addEventListener("click", function() {
+  document.querySelector(".hbg-menu-spin").addEventListener("click", function () {
     document.querySelector(".hbg-menu-spin .hbg").classList.toggle("active")
   }, false)
 
-  document.querySelector(".hbg-menu-arrow-left").addEventListener("click", function() {
+  document.querySelector(".hbg-menu-arrow-left").addEventListener("click", function () {
     document.querySelector(".hbg-menu-arrow-left .hbg").classList.toggle("active")
   }, false)
 
-  document.querySelector(".hbg-menu-arrow-right").addEventListener("click", function() {
+  document.querySelector(".hbg-menu-arrow-right").addEventListener("click", function () {
     document.querySelector(".hbg-menu-arrow-right .hbg").classList.toggle("active")
   }, false)
 
