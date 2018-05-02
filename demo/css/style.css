@@ -574,5 +574,14 @@ footer {
   width: 100%;
   height: -webkit-calc(100vh - 150px - 30px - 100px - 30px);
   height: calc(100vh - 150px - 30px - 100px - 30px); }
-  .instration h1 {
-    font-size: 26px; }
+  .instration h2 {
+    font-size: 26px;
+    margin: 15px 0 0 0; }
+  .instration h3 {
+    font-size: 20px;
+    margin: 20px 0 10px 0; }
+  .instration .code {
+    margin: 0;
+    width: 1000px; }
+  .instration code {
+    font-size: 15px; }
