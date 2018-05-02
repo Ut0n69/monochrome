@@ -1,0 +1,53 @@
+/* centering ----------------------------*/
+
+.centering {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* max-width ----------------------------*/
+$max-width: 1000px;
+
+.max-width {
+  max-width: $max-width;
+  margin: auto;
+}
+
+/* link-color ----------------------------*/
+
+$linkFontColor: #000;
+
+a:link {
+  color: $linkFontColor;
+}
+
+a:visited {
+  color: $linkFontColor;
+}
+
+a:hover {
+  color: $linkFontColor;
+}
+
+a:active {
+  color: $linkFontColor;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}

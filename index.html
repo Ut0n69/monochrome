@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="fb:admins" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+
+  <meta content="Monochrome" name="title">
+  <meta content="This is a CSS framework." name="description">
+  <meta content="CSS, library, framework" name="keywords">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="This is a CSS framework." />
+  <meta property="og:image" content="http://placehold.jp/120/000000/ffffff/1200x630.png?text=Monochrome" />
+  <meta property="og:url" content="" />
+  <meta property="og:site_name" content="" />
+  <meta content="summary" name="twitter:card" />
+  <meta content="@twitter_acount" name="twitter:site" />
+
+  <title>Monochrome</title>
+  <link rel="icon" type="image/png" href="http://placehold.jp/120/000000/ffffff/150x150.png?text=M">
+  <link rel="stylesheet" href="demo/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="centering">Monochrome</h1>
+  </header>
+  <div class="menu">
+    <a class="instration">Instration</a>
+    <a class="usage">Usage</a>
+  </div>
+  <main class="max-width">
+    <section>
+      <h2>Button</h2>
+      <hr color="#000">
+      <div class="contents">
+        <button class="btn-white">Button</button>
+        <button class="btn-black">Button</button>
+        <button class="btn-white btn-lg">Button</button>
+        <button class="btn-black btn-lg">Button</button>
+        <br>
+        <br>
+        <button class="btn-white round">Button</button>
+        <button class="btn-black round">Button</button>
+        <button class="btn-white round btn-lg">Button</button>
+        <button class="btn-black round btn-lg">Button</button>
+      </div>
+      <div class="code">
+        <code>
+          &lt;button class="btn-white"&gt;Button&lt;/button&gt;
+          <br> &lt;button class="btn-black"&gt;Button&lt;/button&gt;
+          <br> &lt;button class="btn-white btn-lg"&gt;Button&lt;/button&gt;
+          <br> &lt;button class="btn-black btn-lg"&gt;Button&lt;/button&gt;
+          <br> &lt;button class="btn-white round"&gt;Button&lt;/button&gt;
+          <br> &lt;button class="btn-black round"&gt;Button&lt;/button&gt;
+          <br> &lt;button class="btn-white round btn-lg"&gt;Button&lt;/button&gt;
+          <br> &lt;button class="btn-black round btn-lg"&gt;Button&lt;/button&gt;
+        </code>
+      </div>
+    </section>
+    <section>
+      <h2>Humberger Menu</h2>
+      <div class="contents">
+        <hr color="#000">
+        <table class="hbg-table">
+          <tr>
+            <td>
+              <div class="hbg-menu">
+                <div class="hbg">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="hbg-menu-spin">
+                <div class="hbg">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="hbg-menu-arrow-left">
+                <div class="hbg">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="hbg-menu-arrow-right">
+                <div class="hbg">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.hbg-menu</td>
+            <td>.hbg-menu-spin</td>
+            <td>.hbg-menu-arrow-left</td>
+            <td>.hbg-menu-spin-arrow-right</td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="code">
+        <code class="code-hbg-menu">
+          &lt;div class="hbg-menu"&gt;
+          <br> &nbsp&nbsp&lt;div class="hbg">
+          <br> &nbsp&nbsp&nbsp&nbsp;&lt;span&gt;&lt;/span&gt;
+          <br> &nbsp&nbsp&nbsp&nbsp&lt;span&gt;&lt;/span&gt;
+          <br> &nbsp&nbsp&nbsp&nbsp&lt;span&gt;&lt;/span&gt;
+          <br> &nbsp&nbsp&lt;/div&gt;
+          <br> &lt;/div&gt;
+        </code>
+      </div>
+    </section>
+    <section>
+      <h2>Form</h2>
+      <hr color="#000">
+      <div class="contents">
+        <h3>Input</h3>
+        <input class="input" type="text">
+        <br>
+        <h3>Select box</h3>
+        <select class="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <br>
+        <h3>Textarea</h3>
+        <textarea class="textarea" rows="5"></textarea>
+      </div>
+      <div class="code">
+        <code>
+          &lt;input class="input" type="text"&gt;
+          <br>
+          <br>&lt;select class="select"&gt;
+          <br>&nbsp&nbsp&lt;option&gt;1&lt;/option&gt;
+          <br>&nbsp&nbsp&lt;option&gt;2&lt;/option&gt;
+          <br>&nbsp&nbsp&lt;option&gt;3&lt;/option&gt;
+          <br>&lt;/select&gt;
+          <br>
+          <br> &lt;textarea class="textarea" rows="5"&gt;&lt;/textarea&gt;
+        </code>
+      </div>
+    </section>
+    <section>
+      <h2>Table</h2>
+      <hr color="#000">
+      <div class="contents">
+        <h3>.table</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>th1</th>
+              <th>th2</th>
+              <th>th3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>.table-border</h3>
+        <table class="table-stripe">
+          <thead>
+            <tr>
+              <th>th1</th>
+              <th>th2</th>
+              <th>th3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>.table-hover</h3>
+        <table class="table-hover">
+          <thead>
+            <tr>
+              <th>th1</th>
+              <th>th2</th>
+              <th>th3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="code">
+        <code>
+          &lt;table class="table"&gt;
+          <br>&nbsp&nbsp&lt;thead&gt;
+          <br>&nbsp&nbsp&nbsp&nbsp&lt;tr&gt;
+          <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;th&gt;th1&lt;/th&gt;
+          <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp・・・
+          <br>&nbsp&nbsp&nbsp&nbsp&lt;/tr&gt;
+          <br>&nbsp&nbsp&lt;/thead&gt;
+          <br>&nbsp&nbsp&lt;tbody&gt;
+          <br>&nbsp&nbsp&nbsp&nbsp&lt;tr&gt;
+          <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt;td&gt;1&lt;/td&gt;
+          <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp・・・
+          <br>&nbsp&nbsp&nbsp&nbsp&lt;/tr&gt;
+          <br>&nbsp&nbsp&nbsp&nbsp・・・
+          <br>&nbsp&nbsp&lt;/tbody&gt;
+          <br>&lt;/table&gt;
+        </code>
+      </div>
+    </section>
+    <section>
+      <h2>Card</h2>
+      <hr color="#000">
+      <div class="contents">
+        <div class="card">
+          <img src="http://placehold.jp/000000/ffffff/300x300.png">
+          <p>title</p>
+        </div>
+      </div>
+      <div class="code code-button">
+        <code>
+          &lt;div class="card"&gt;
+          <br>&nbsp;&nbsp;&lt;img src="YOUR_IMAGES_URL"&gt;
+          <br>&nbsp;&nbsp;&lt;p&gt;title&lt;/p&gt;
+          <br>&lt;/div&gt;
+        </code>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a style="color: #fff;" href="https://github.com/Ut0n69/monochrome" target="_blank">GitHub</a>
+  </footer>
+  <script src="js/monochrome.js"></script>
+  <script src="demo/js/main.js"></script>
+</body>
+
+</html>

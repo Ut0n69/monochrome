@@ -1,0 +1,6 @@
+$breakpoint: 768px;
+@mixin mq() {
+  @media screen and (max-width: $breakpoint) {
+    @content;
+  }
+}

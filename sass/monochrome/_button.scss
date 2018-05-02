@@ -1,0 +1,63 @@
+/* button ----------------------------*/
+
+.btn-white {
+  width: 130px;
+  height: 40px;
+  background:#fff;
+  color: #000;
+  border: 2px solid #000;
+  font-size: 23px;
+  transition: .3s;
+  cursor: pointer;
+  &.round {
+    border-radius: 35px;
+  }
+  &.btn-lg {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+.btn-white:hover {
+  background: #000;
+  color: #fff;
+}
+
+.btn-black {
+  width: 130px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  font-size: 23px;
+  transition: .3s;
+  cursor: pointer;
+  &.round {
+    border-radius: 35px;
+  }
+  &.btn-lg {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+.btn-black:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.btn-round {
+  width: 200px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  font-size: 23px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.btn-round:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
