@@ -5,13 +5,13 @@ document.querySelector(".instration").addEventListener("click", function () {
   <h3>CSS</h3>
   <div class="code">
     <code>
-      &lt;link&nbsprel="stylesheet"&nbsphref="https://cdn.rawgit.com/Ut0n69/monochrome/76bad776/css/monochrome.min.css"&gt;
+      &lt;link&nbsprel="stylesheet"&nbsphref="https://cdn.jsdelivr.net/gh/Ut0n69/monochrome@76bad776/css/monochrome.min.css"&gt;
     </code>
   </div>
   <h3>JS (If you use Humberger Menu)</h3>
   <div class="code">
   <code>
-  &lt;script src="https://cdn.rawgit.com/Ut0n69/monochrome/76bad776/js/monochrome.js"&gt;&lt;/script&gt;
+  &lt;script src="https://cdn.jsdelivr.net/gh/Ut0n69/monochrome@76bad776/js/monochrome.js"&gt;&lt;/script&gt;
   </code>
 </div>
   </section>

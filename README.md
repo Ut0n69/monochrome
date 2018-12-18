@@ -8,12 +8,12 @@ This is a CSS framework.
 
 #### CSS
 ```
-<link rel="stylesheet" href="https://cdn.rawgit.com/Ut0n69/monochrome/76bad776/css/monochrome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ut0n69/monochrome@76bad776/css/monochrome.min.css">
 ```
 
 #### JS (If you use Humberger Menu)
 ```
-<script src="https://cdn.rawgit.com/Ut0n69/monochrome/76bad776/js/monochrome.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Ut0n69/monochrome@76bad776/js/monochrome.js"></script>
 ```
 
 ## Licence
